@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "totalResults": 4,
+  "articles": [
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Ingrid Lunden",
+      "title": "EGYM, the Munich-based smart fitness startup, raises $225M from Jared Kushner's Affinity Partners",
+      "description": "The technology industry at large might not be in the best of health at the moment, but health and fitness startups appear to be alive and well. EGYM, the Munich-based “smart workout solution” business, has agreed a monster equity investment of €207 million ($…",
+      "url": "https://techcrunch.com/2023/07/05/egym-the-munich-based-smart-fitness-startup-raises-225m-from-jared-kushners-affinity-partners/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/07/EGYM.jpg?resize=1200,691",
+      "publishedAt": "2023-07-05T15:08:11Z",
+      "content": "The technology industry at large might not be in the best of health at the moment, but health and fitness startups appear to be alive and well. EGYM, the Munich-based “smart workout solution” busines… [+6597 chars]"
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Wired",
+      "title": "AI Could Change How Blind People See the World",
+      "description": "Assistive technology services are integrating OpenAI's GPT-4, using artificial intelligence to help describe objects and people.",
+      "url": "https://www.wired.com/story/ai-gpt4-could-change-how-blind-people-see-the-world/",
+      "urlToImage": "https://media.wired.com/photos/649b45f1c30f50376ee875a4/191:100/w_1280,c_limit/business_gpt4_ai_google_glass_blind.jpg",
+      "publishedAt": "2023-07-05T11:00:00Z",
+      "content": "For her 38th birthday, Chela Robles and her family made a trek to One House, her favorite bakery in Benicia, California, for a brisket sandwich and brownies. On the car ride home, she tapped a small … [+3313 chars]"
+    },
+    {
+      "source": {
+        "id": "next-big-future",
+        "name": "Next Big Future"
+      },
+      "author": "Brian Wang",
+      "title": "Firefly Aerospace Signs Lockheed Martin for Alpha Launch Services | NextBigFuture.com",
+      "description": "Firefly Aerospace, Inc., an end-to-end space transportation company, signed a launch agreement with Lockheed Martin to support a technology demonstration",
+      "url": "https://www.nextbigfuture.com/2023/07/firefly-aerospace-signs-lockheed-martin-for-alpha-launch-services.html",
+      "urlToImage": "https://nextbigfuture.s3.amazonaws.com/uploads/2023/07/fireflylaunch-1024x683.jpeg",
+      "publishedAt": "2023-07-03T22:35:02Z",
+      "content": "Brian Wang is a Futurist Thought Leader and a popular Science blogger with 1 million readers per month. His blog Nextbigfuture.com is ranked #1 Science News Blog. It covers many disruptive technology… [+593 chars]"
+    },
+    {
+      "source": {
+        "id": "newsweek",
+        "name": "Newsweek"
+      },
+      "author": "Mark Davis",
+      "title": "Newsweek",
+      "description": "Newsweek provides in-depth analysis, news and opinion about international issues, technology, business, culture and politics.",
+      "url": "https://www.newsweek.com/",
+      "urlToImage": "https://d.newsweek.com/en/full/2202468/special-presidential-envoy-climate-john-kerry.jpg",
+      "publishedAt": "2023-03-01T12:07:28.8517009Z",
+      "content": null
+    }
+  ]
+}

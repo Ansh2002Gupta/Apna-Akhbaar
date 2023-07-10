@@ -1,0 +1,50 @@
+Australia
+Canada 
+China 
+Egypt 
+France 
+Indonesia
+Israel 
+Japan 
+Korea 
+Pakistan
+Germany 
+Sweden 
+Russia 
+UK
+UAE 
+USA 
+
+<li><Link className="dropdown-item" to="/Australia">Australia</Link></li>
+<li><Link className="dropdown-item" to="/Canada ">Canada</Link></li>
+<li><Link className="dropdown-item" to="/China ">China</Link></li>
+<li><Link className="dropdown-item" to="/Egypt ">Egypt</Link></li>
+<li><Link className="dropdown-item" to="/France ">France</Link></li>
+<li><Link className="dropdown-item" to="/Indonesia">Indonesia</Link></li>
+<li><Link className="dropdown-item" to="/Israel ">Israel</Link></li>
+<li><Link className="dropdown-item" to="/Japan ">Japan</Link></li>
+<li><Link className="dropdown-item" to="/Korea ">Korea</Link></li>
+<li><Link className="dropdown-item" to="/Pakistan">Pakistan</Link></li>
+<li><Link className="dropdown-item" to="/Germany ">Germany</Link></li>
+<li><Link className="dropdown-item" to="/Sweden ">Sweden</Link></li>
+<li><Link className="dropdown-item" to="/Russia ">Russia</Link></li>
+<li><Link className="dropdown-item" to="/UK">UK</Link></li>
+<li><Link className="dropdown-item" to="/UAE ">UAE</Link></li>
+<li><Link className="dropdown-item" to="/USA ">USA</Link></li>
+
+<Route path='/Australia' element={<News country='au' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/Canada' element={<News country='ca' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/China' element={<News country='cn' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/Egypt' element={<News country='eg' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/France' element={<News country='fr' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/Indonesia' element={<News country='id' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/Israel' element={<News country='il' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/Japan' element={<News country='jp' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/Korea' element={<News country='kr' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/Pakistan' element={<News country='' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/Germany' element={<News country='de' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/Sweden' element={<News country='se' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/Russia' element={<News country='ru' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/UK' element={<News country='gb' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/UAE' element={<News country='ae' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
+<Route path='/USA' element={<News country='us' category='general' apiKey = {`6e1a7b2f62c642c1902d269fd180f6dc`} page = {1} pageSize={6}/>}></Route>
