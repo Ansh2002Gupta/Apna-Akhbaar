@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import default_image from './default_image.png';
 
 export default class NewsItem extends Component {
   render() {
@@ -6,7 +7,7 @@ export default class NewsItem extends Component {
         return (
           <div className="my-3">
             <div className="card" style={{width: '19rem'}}>
-                <img src={imageUrl ? imageUrl : 'https://techcrunch.com/wp-content/uploads/2023/07/EGYM.jpg?resize=1200,691'} className="card-img-top" alt="newsPicture" />
+                <img src={imageUrl ? imageUrl : default_image} className="card-img-top" alt="newsPicture" />
                 <div className="card-body">
                 <span class="badge text-bg-info">{source ? source : 'Unknown'}</span>
                 <h5 className="card-title">{title}...</h5>

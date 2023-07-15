@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import fire from './fire.png';
 
 export default class NavBar extends Component {
  
     render() {
     return (
-        <nav className="navbar shadow p-10 mb-5 bg-body-tertiary bg-dark" data-bs-theme="dark">
+        <nav className="navbar shadow p-10 mb-5 bg-body-tertiary bg-dark fixed-top" data-bs-theme="dark">
             <div className="container-fluid">
                 <Link className="navbar-brand mx-3" to="/" style={{fontSize:'30px'}}>
                     <img src="favicon.ico" alt="Logo" width="45" height="45" className="d-inline-block align-text-top"/>
-                    TajaKhabar
+                    Apna Akhbaar
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -22,7 +23,7 @@ export default class NavBar extends Component {
                     <div className="offcanvas-body">
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li className="nav-item">
-                            <Link className="nav-link active" aria-current="page" to="/">Trending<img src='F:\Web Development\tajakhabar\src\components\fire.png' alt="fire" width="20" height="20" className='d-inline-block mx-1'/></Link>
+                            <Link className="nav-link active" aria-current="page" to="/">Trending<img src={fire} alt="fire" width="20" height="20" className='d-inline-block mx-1'/></Link>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to='/Sports'>Sports</Link>
@@ -47,26 +48,14 @@ export default class NavBar extends Component {
                                 World Affairs
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-dark">
-                                <li><Link className="dropdown-item" to="/Australia">Australia</Link></li>
-                                <li><Link className="dropdown-item" to="/Canada ">Canada</Link></li>
-                                <li><Link className="dropdown-item" to="/China ">China</Link></li>
-                                <li><Link className="dropdown-item" to="/Egypt ">Egypt</Link></li>
+                                {/* <li><Link className="dropdown-item" to="/China ">China</Link></li> */}
                                 <li><Link className="dropdown-item" to="/France ">France</Link></li>
-                                <li><Link className="dropdown-item" to="/Indonesia">Indonesia</Link></li>
-                                <li><Link className="dropdown-item" to="/Israel ">Israel</Link></li>
                                 <li><Link className="dropdown-item" to="/Japan ">Japan</Link></li>
                                 <li><Link className="dropdown-item" to="/Korea ">Korea</Link></li>
-                                <li><Link className="dropdown-item" to="/Pakistan">Pakistan</Link></li>
-                                <li><Link className="dropdown-item" to="/Germany ">Germany</Link></li>
-                                <li><Link className="dropdown-item" to="/Sweden ">Sweden</Link></li>
+                                {/* <li><Link className="dropdown-item" to="/Germany ">Germany</Link></li> */}
                                 <li><Link className="dropdown-item" to="/Russia ">Russia</Link></li>
                                 <li><Link className="dropdown-item" to="/UK">UK</Link></li>
-                                <li><Link className="dropdown-item" to="/UAE ">UAE</Link></li>
                                 <li><Link className="dropdown-item" to="/USA ">USA</Link></li>
-                                {/* <li>
-                                    <hr className="dropdown-divider"/>
-                                </li>
-                                <li><Link className="dropdown-item" to="/">Something else here</Link></li>*/}
                             </ul>
                         </li>
                         </ul>
